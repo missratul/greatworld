@@ -1,0 +1,51 @@
+<html> 
+<head> </head> 
+<body> 
+<center> 
+<h1> data warehouse and data mining </h1> 
+</center> 
+<left> 
+<h2> define a data warehouse? </h2> 
+<br> 
+<h4><em> a data warehouse is meant for just query and analysis and is subject oriented , non volatile , integrated , time variant , consists of <br> 
+historical data stored over long intervals , a blue print of BI and data mining algorithms . </em> </h4> 
+<br> 
+<h2> data warehouse and OLTP  : </h2> 
+<br> 
+<table width="60%" border="2"> 
+<tr> 
+<td> data warehouse </td> 
+<td> OLTP </td> 
+</tr> 
+<tr> 
+<td> tables are denormalized </td> 
+<td> tables are normalized </td> 
+</tr> 
+<tr> 
+<td> performs query and analysis </td> 
+<td> performs transactions only </td> 
+</tr> 
+<tr> 
+<td> stores historical data </td> 
+<td> stores transient data </td> 
+</tr> 
+<tr> 
+<td> is blue print of BI </td> 
+<td> is index of transactions </td> 
+</tr> 
+<tr> 
+<td> can slice and dice data </td> 
+<td> cannot slice and dice data </td> 
+</tr> 
+<tr> 
+<td> can roll up or drill down </td> 
+<td> cannot roll up or drill down </td> 
+</tr> 
+<tr> 
+<td> examples are erwin, cognos </td> 
+<td> data marts are example </td> 
+</tr> 
+</table> 
+</left> 
+</body> 
+</html> 
